@@ -13,6 +13,8 @@
 		E838A8E22228CE9B008AF62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E838A8E12228CE9B008AF62B /* Assets.xcassets */; };
 		E838A8E52228CE9B008AF62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E838A8E32228CE9B008AF62B /* LaunchScreen.storyboard */; };
 		E838A8F02228CE9B008AF62B /* NewDemoGITAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838A8EF2228CE9B008AF62B /* NewDemoGITAppUITests.swift */; };
+		E838A8FC2228D29D008AF62B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838A8FA2228D29D008AF62B /* TestViewController.swift */; };
+		E838A8FD2228D29D008AF62B /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E838A8FB2228D29D008AF62B /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E838A8EB2228CE9B008AF62B /* NewDemoGITAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewDemoGITAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E838A8EF2228CE9B008AF62B /* NewDemoGITAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDemoGITAppUITests.swift; sourceTree = "<group>"; };
 		E838A8F12228CE9B008AF62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E838A8FA2228D29D008AF62B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E838A8FB2228D29D008AF62B /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				E838A8E12228CE9B008AF62B /* Assets.xcassets */,
 				E838A8E32228CE9B008AF62B /* LaunchScreen.storyboard */,
 				E838A8E62228CE9B008AF62B /* Info.plist */,
+				E838A8FA2228D29D008AF62B /* TestViewController.swift */,
+				E838A8FB2228D29D008AF62B /* TestViewController.xib */,
 			);
 			path = NewDemoGITApp;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			files = (
 				E838A8E52228CE9B008AF62B /* LaunchScreen.storyboard in Resources */,
 				E838A8E22228CE9B008AF62B /* Assets.xcassets in Resources */,
+				E838A8FD2228D29D008AF62B /* TestViewController.xib in Resources */,
 				E838A8E02228CE9A008AF62B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E838A8DD2228CE9A008AF62B /* ViewController.swift in Sources */,
+				E838A8FC2228D29D008AF62B /* TestViewController.swift in Sources */,
 				E838A8DB2228CE9A008AF62B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
