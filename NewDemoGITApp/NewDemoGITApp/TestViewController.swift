@@ -14,6 +14,7 @@ class TestViewController: UIViewController {
         super.viewDidLoad()
         print("hello")
         print("1:35")
+                print("1:45")
         // Do any additional setup after loading the view.
     }
 
