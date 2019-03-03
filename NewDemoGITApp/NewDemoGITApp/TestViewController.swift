@@ -12,7 +12,7 @@ class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hiii")
+        print("hello")
         // Do any additional setup after loading the view.
     }
 
